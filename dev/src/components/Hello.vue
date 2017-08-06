@@ -1,32 +1,23 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h1>Arturo Manzaneda</h1>
+    <h2>Welcome to my personal site</h2>
+    <h3>Currently learning:</h3>
     <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://gitter.im/vuejs/vue" target="_blank" rel="noopener">Gitter Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank" rel="noopener">Docs for This Template</a></li>
+      <li><a href="https://vuejs.org/" target="_blank" rel="noopener">Vue JS</a></li>
+      <li><a href="https://developers.google.com/web/progressive-web-apps/" target="_blank" rel="noopener">PWA - Progressive Web Apps</a></li>
     </ul>
-    <h2>Ecosystem</h2>
+    <h3>Right now focused working with the following awesome things:</h3>
     <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
+      <li><a href="https://projects.spring.io/spring-boot/" target="_blank" rel="noopener">Spring Boot</a></li>
+      <li><a href="https://www.corda.net/" target="_blank" rel="noopener">Corda - Distributed Ledger</a></li>
     </ul>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'hello',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js PWA'
-    }
-  }
+  name: 'hello'
 }
 </script>
 

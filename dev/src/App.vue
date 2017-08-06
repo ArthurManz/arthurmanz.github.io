@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <header>
-      <span>Vue.js PWA</span>
+      <span></span>
     </header>
     <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
+      <img class="rounded" src="https://avatars0.githubusercontent.com/u/12459233?v=4&s=460" alt="Profile Picture">
       <router-view></router-view>
     </main>
   </div>
@@ -33,9 +33,15 @@ main {
   margin-top: 40px;
 }
 
+.rounded {
+  border-radius: 50%;
+  height: 200px;
+  width: auto;
+}
+
 header {
   margin: 0;
-  height: 56px;
+  height: 26px;
   padding: 0 16px 0 24px;
   background-color: #35495E;
   color: #ffffff;
